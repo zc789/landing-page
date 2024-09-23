@@ -1,3 +1,7 @@
+body {
+    font-family: "Roboto";
+}
+
 header {
     background-color: #1f2937;
     display: flex;
@@ -45,7 +49,7 @@ header {
 .secondtext {
     font-size: 18px;
     color: #e5e7eb;
-    width: 400px;
+    width: 450px;
 }
 
 .headmid {
@@ -104,5 +108,38 @@ header {
 }
 
 .part1 {
+    height: 450px;
+}
+
+/*split2*/
+
+.part2 {
+    background-color: #e5e7eb;
+    height: 450px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 5;
+    font-style: italic;
+    color: #1f2937;
+    width: 780px;
+    font-weight: lighter;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    width: 700px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.part2-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 450px;
 }
